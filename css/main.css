@@ -30,11 +30,10 @@ header {
 main {
     background-color: #333333;
     background-image: url('../img/background_img_index.jpg');
-    background-image: no-repeat;
     background-size: cover;
-    padding-bottom: 800px;
+    padding-bottom: 400px;
     background-blend-mode: multiply;
-   background-position-y: -200px;
+   background-position-y: -600px
 }
 
 .characters {
@@ -161,7 +160,7 @@ footer {
     background-color: rgba(0, 0, 0, 0.85);
     background-image: url('../img/amuro_lightbox.png');
     background-repeat: no-repeat;
-    background-repeat: 55vh;
+    background-size: 55vh;
     background-position: 10px bottom; 
     z-index: 5000;
     display: none;
